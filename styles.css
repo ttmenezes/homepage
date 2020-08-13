@@ -1,0 +1,87 @@
+.message {
+    width: 66%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    opacity: 0.6;
+    background-color: black;
+    padding-top: 15pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+#content {
+    padding-top: 100pt;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+#background {
+    background-image: url('wallpaper.png');
+    background-color:#171522;
+    background-blend-mode: luminosity;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+
+#weather {
+    width: 30%;
+    opacity: 0.6;
+    background-color: black;
+    padding-top: 7pt;
+    padding-bottom: 7pt;
+    padding-left: 40pt;
+    padding-right: 40pt;
+    margin-left: 2.5%
+}
+
+#tasks {
+    width: 50%;
+    opacity: 0.6;
+    background-color: black;
+    margin-right: 2.5%;
+    padding-left: 50pt;
+}
+
+#header {
+    /* width: %; */
+    opacity: 0.6;
+    background-color: black;
+    padding-top: 7pt;
+    padding-bottom: 7pt;
+    padding-left: 40pt;
+    padding-right: 40pt;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    display: flex;
+}
+
+#header button {
+    background-color: rgb(56, 56, 201);
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    font-family:  'Marion';
+    display: inline;
+    float: none;
+    font-size: 100pt;
+}
+
+h2 {
+    color: white;
+    font-family: 'Marion';
+    font-size: 50pt;
+}
+
+li {
+    color: white;
+    font-family: 'Futura';
+    font-size: 25pt;
+}

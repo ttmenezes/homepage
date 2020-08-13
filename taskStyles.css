@@ -1,0 +1,27 @@
+#header {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#input {
+    width: 70%;
+    height: 150px;
+    font-size: 40pt;
+}
+
+button {
+    height: 30pt;
+    width: 75pt;
+    margin: 15pt;
+}
